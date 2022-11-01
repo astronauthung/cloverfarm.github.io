@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Taildwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+
+      <!-- <video width="100%" height="100%" loop muted id="autoplay">
+        <source src="/Video/co.mp4" type="video/mp4">
+      </video> -->
+      <!--insert an audio name dusk from Audio folder and autoplay -->
+      <!-- <audio autoplay>
+        <source src="/Audio/dusk.mp3" type="audio/mp3">
+      </audio> -->
+      <audio id="player">
+        <source src="/Audio/dusk.mp3" type="audio/mp3">
+      </audio>
+
+      <script type="text/javascript">
+          function autoplay()
+          {
+              var confirm = confirm("Play music ?");
+              if(confirm)
+              {
+              var audio = document.getElementById("player");
+              audio.play();
+              }
+          }
+        </script>
+        <script type="text/javascript">autoplay();</script>
+      <!-- <script>
+        window.onload = function() {''
+          document.getElementById("autoplay").play();
+        }
+      </script>       -->
+    
+</body>
+</html>
