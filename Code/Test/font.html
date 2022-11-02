@@ -10,43 +10,33 @@
     <!-- Bootstrap Font Icon CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Taildwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Image/Workshop/pumpkin.jpg" class="d-block w-100" alt="jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="/Image/Workshop/pottery.jpg" class="d-block w-100" alt="jpg">
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-      <!-- <video width="100%" height="100%" loop muted id="autoplay">
-        <source src="/Video/co.mp4" type="video/mp4">
-      </video> -->
-      <!--insert an audio name dusk from Audio folder and autoplay -->
-      <!-- <audio autoplay>
-        <source src="/Audio/dusk.mp3" type="audio/mp3">
-      </audio> -->
-      <audio id="player">
-        <source src="/Audio/dusk.mp3" type="audio/mp3">
-      </audio>
-
-      <script type="text/javascript">
-          function autoplay()
-          {
-              var confirm = confirm("Play music ?");
-              if(confirm)
-              {
-              var audio = document.getElementById("player");
-              audio.play();
-              }
-          }
-        </script>
-        <script type="text/javascript">autoplay();</script>
-      <!-- <script>
-        window.onload = function() {''
-          document.getElementById("autoplay").play();
-        }
-      </script>       -->
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
