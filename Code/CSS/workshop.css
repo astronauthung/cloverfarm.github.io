@@ -139,7 +139,7 @@ body::-webkit-scrollbar {
     object-fit: cover;
 }
 #carousel-main {
-    padding: 50px 100px;
+    padding: 0px 100px;
 }
 .carousel-main-text {
     position: relative;
@@ -151,6 +151,17 @@ body::-webkit-scrollbar {
 
     margin: 50px;
     margin-left: 10px;;
+}
+#carousel-img img{
+    filter: brightness(75%);
+}
+#carousel-caption {
+    top: 50%;
+    transform: translateY(-35%);
+}
+
+.carousel-button-prev, .carousel-button-next {
+    padding: 50px 100px;
 }
 
 
