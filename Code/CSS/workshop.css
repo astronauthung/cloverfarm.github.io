@@ -12,10 +12,10 @@
 body::-webkit-scrollbar {
     display: none;
   }
-  body {
+body {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-  }
+}
 
 /*title-top*/
 .whiteblank {
