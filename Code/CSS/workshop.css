@@ -140,6 +140,7 @@ body {
 }
 #carousel-main {
     padding: 0px 100px;
+    margin-bottom: 50px;
 }
 .carousel-main-text {
     position: relative;
